@@ -1,0 +1,16 @@
+td, th {
+border: 1px solid #999;
+padding: 0.5rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+ul{
+  background-color: green;
+}
+
+ol{
+  background-color: red;
+}
