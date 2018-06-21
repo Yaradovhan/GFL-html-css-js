@@ -1,0 +1,31 @@
+td, th {
+    border: 1px solid #999;
+    padding: 10px;
+    vert-align: top;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#footer{
+    text-align: center;
+}
+
+#header{
+    text-align: center;
+}
+
+#body{
+    width: 70%;
+}
+
+#sidebar{
+    width: 30%;
+    vertical-align: top;
+}
+
+#img{
+    text-align: center;
+}
