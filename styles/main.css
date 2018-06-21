@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body {
+  background: url("../img/bg.gif");
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#global-wrap {
+  width: 764px;
+  background: #fff url("../img/header.jpg") no-repeat center top;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+.global-header {
+  height: 239px;
+  padding: 117px 0 5px 40px;
+}
+
+.global-header a {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.global-header p {
+  color: #fff;
+  font-size: 13px;
+}
+
+.global-menu {
+  background: #00c612;
+  background: -moz-linear-gradient(top, #00c612 0%, #00c612 50%, #00b100 51%, #00b100 100%);
+  background: -webkit-linear-gradient(top, #00c612 0%, #00c612 50%, #00b100 51%, #00b100 100%);
+  background: linear-gradient(to bottom, #00c612 0%, #00c612 50%, #00b100 51%, #00b100 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c612', endColorstr='#00b100', GradientType=0);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+
+.global-menu ul {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.global-menu li {
+  display: table-cell;
+  text-align: center;
+  line-height: 48px;
+}
+
+.global-menu li a:hover {
+  color: #000;
+}
+
+.global-menu li a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.content-left {
+  float: left;
+  width: 450px;
+  padding: 0 22px 0 30px;
+}
+
+.content-rigt-titile {
+  margin: 10px 0;
+  text-align: left;
+  padding: 0 0 0 10px;
+  color: #fff;
+  height: 40px;
+}
+
+.content-rigt-titile-h1 {
+  font-size: 24px;
+  color: #fff;
+  background: url("../img/bg.gif");
+  margin: 0;
+  padding: 10px;
+}
+
+.archives-right-li {
+  color: #aaa;
+  font-size: 13px;
+  font-style: italic;
+  list-style: none;
+  padding: 4px;
+}
+
+.archives-right-link {
+  text-decoration: none;
+  color: green;
+  font-size: 14px;
+  font-style: normal;
+  position: relative;
+  padding: 0 4px 0 8px;
+}
+
+.archives-right-link:before {
+  content: "";
+  background: url("../img/bg.gif");
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 0;
+  top: 2px;
+}
+
+.archives-right-nav {
+  padding: 10px;
+}
+
+.content-right {
+  float: right;
+  width: 241px;
+  padding-right: 21px;
+}
+
+.right-news-nav p {
+  font-size: 16px;
+  color: grey;
+  font-weight: bold;
+}
+
+.right-news-nav {
+  padding: 10px;
+}
+
+.news-right-link {
+
+}
+
+.one-news-box {
+  padding: 10px 0;
+}
+
+.one-news-box p {
+  font-size: 14px;
+}
+
+.footer-one-news-box {
+  font-size: 14px;
+}
+
+.one-news-box h1, .one-news-box h2 {
+  color: green;
+}
+
+.one-news-box .footer-one-news-box ul {
+  display: inline-block;
+}
+
+.one-news-box .footer-one-news-box ul li:before {
+  content: "|";
+  display: inline;
+  padding: 0 5px;
+}
+
+.one-news-box .footer-one-news-box ul li:first-child:before {
+  content: "";
+  display: none;
+}
+
+.one-news-box .footer-one-news-box ul li {
+  display: inline-block;
+}
+
+.hor-line {
+  /* height: 3px; */
+  /* color: blue; */
+  border: 3px solid blue;
+  width: 775px;
+  margin-left: -8px;
+}
+
+.footer {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,125e1a+100 */
+  background: #feffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #feffff 0%, #125e1a 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #feffff 0%, #125e1a 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #feffff 0%, #125e1a 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#125e1a', GradientType=0);
+  /* IE6-9 */
+  height: 50px;
+  width: 780px;
+  margin-left: -8px;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer a {
+	color: #fff;
+}
